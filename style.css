@@ -1,0 +1,80 @@
+body{
+    background-color: burlywood; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color:black;
+}
+h2{
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font: size 4px; 
+ color: black;
+}
+h3{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: large;
+}
+p{
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    color: black;
+    margin: 15px;
+}
+
+ a{
+    text-align: center;
+     color: rgb(0, 0, 0);
+       border: black;
+       border-radius: 5px;
+     margin: 5px;
+ } 
+ 
+ table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid black;
+  }
+  
+  td, th {
+    border: 2px solid black;
+    text-align: left;
+    padding: 8px;
+    }
+  /* tr:nth-child(even)  */
+  .contact-info {
+    background-color: white;
+    padding: 40px 0;
+  }
+  .contact-details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  }
+  .contact-details div {
+    width: 30px;
+  }
+  .contact-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px; 
+  }
+  .contact-from form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color:white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(0, 0, 0 0.1);
+  }
+  .contact-from label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  .contact-from input, .contact-from textarea {
+    width: 100%;
+  }
